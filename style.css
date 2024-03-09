@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 2s all ease;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,112,9,1) 25%, rgba(0,212,255,1) 100%);
+}
+
+h1{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,56,1) 25%, rgba(0,212,255,1) 100%);
+    color: white;
+    text-align: left;
+    transition: 2s all ease;
+}
+
+h1:hover{
+    transition: 2s all ease;
+    transform: scale(360deg) translate();
+    background-clip: text;
+}
+
+h2{
+    background: red;
+    color: black;
+    text-align: right;
+}
+
+h3{
+    background: yellow;
+    color: aqua;
+}
+
+p{
+    text-align: justify;
+    color: red;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
